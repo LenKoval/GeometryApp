@@ -14,8 +14,6 @@ public class Main {
     }
 
     private static void print(String name, Shape shape) {
-        System.out.println(name);
-        System.out.println("площадь " + shape.getArea());
-        System.out.println("периметр " + shape.getPerimeter());
+        System.out.println(name + " " + shape.getDescription());
     }
 }
