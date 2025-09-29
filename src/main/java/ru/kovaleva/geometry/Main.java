@@ -11,6 +11,10 @@ public class Main {
         print("прямоугольник", rectangle);
         System.out.println();
         print("треугольник", triangle);
+
+        System.out.println("сантиметры: " + GeometryUtils.squareMetersToSquareCentimeters(circle.getArea()));
+
+        System.out.println("сравнение фигур: " + GeometryUtils.compareByArea(circle, rectangle));
     }
 
     private static void print(String name, Shape shape) {
